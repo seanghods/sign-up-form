@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Copperplate', Helvetica, sans-serif;
+}
+
+/* left */
+
+.left {
+    min-width: 35vw;
+    flex: 1;
+    overflow: hidden;
+    background-image: url('./images/MLpic2.png');
+    background-position: -100% center;
+    background-size: cover;
+}
+
+img {
+    width: 10vw;
+}
+
+.banner {
+    background-color: rgba(0,0,0,.5);
+    margin-top: 10em;
+    text-align: center;
+}
+
+/* right */
+
+.right {
+    display:flex;
+    flex-direction: column;
+    min-width: 65vw;
+    flex: 1;
+}
+
+.right>div {
+    flex: 1;
+    padding-left: 4em;
+}
+
+/* description */
+
+.description {
+    padding: 4em;
+}
+
+/* form */
+
+.inputs {
+    box-shadow: 0px 2px whitesmoke;
+}
+
+form {
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    gap: 2em;
+}
+.formdata {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.9rem;
+    opacity: 80%;
+}
+
+/* button and footer */
+
+button {
+    background: darkblue;
+    color: white;
+    border-radius: 5px;
+    padding: 1em 3em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
